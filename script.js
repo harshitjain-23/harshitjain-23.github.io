@@ -1,4 +1,3 @@
-<script>
         // JavaScript for Scroll Animations
         const observer = new IntersectionObserver((entries) => {
             entries.forEach((entry) => {
@@ -12,4 +11,3 @@
 
         const hiddenElements = document.querySelectorAll('.hidden');
         hiddenElements.forEach((el) => observer.observe(el));
-    </script>
