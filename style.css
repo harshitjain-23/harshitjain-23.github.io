@@ -507,3 +507,52 @@
             color: var(--main-orange);
         }
 
+        /* ---
+        * RESPONSIVE MEDIA QUERIES
+        --- */
+
+        /* Tablets and smaller */
+        @media screen and (max-width: 992px) {
+            body {
+                padding: 0; /* REMOVED fixed padding for mobile */
+            }
+            #hero {
+                text-align: center;
+            }
+        }
+
+        /* Mobile devices */
+        @media screen and (max-width: 768px) {
+            .section-padding {
+                padding: 60px 0;
+            }
+            .section-title {
+                font-size: 2rem;
+            }
+            #hero {
+                padding: 4rem 0;
+            }
+            #hero h2 {
+                font-size: 1.5rem;
+            }
+            .hero-image-container {
+                margin-top: 3rem;
+            }
+            #experience .timeline-container::after {
+                left: 20px;
+            }
+            .timeline-item {
+                width: 100%;
+                padding-left: 60px;
+                padding-right: 15px;
+            }
+            .timeline-item::after {
+                left: 10px;
+            }
+            .timeline-right {
+                left: 0%;
+            }
+            .project-item {
+                text-align: center;
+            }
+        }
