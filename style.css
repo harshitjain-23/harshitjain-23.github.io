@@ -20,6 +20,7 @@
             color: var(--text-white);
             font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
+            padding: 0 150px;
         }
 
         a {
@@ -456,6 +457,7 @@
         --- */
         #contact {
             background-color: #0a121b;
+            padding: 80px;
         }
         #contact .contact-left h2 {
             font-size: 2.5rem;
